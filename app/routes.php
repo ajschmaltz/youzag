@@ -13,5 +13,5 @@
 
 Route::get('/', function()
 {
-	return DB::select('migrations')->get();
+	return View::make('hello');
 });
